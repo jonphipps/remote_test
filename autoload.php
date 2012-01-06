@@ -7,6 +7,11 @@ require_once __DIR__.'/vendor/symfony/src/Symfony/Component/ClassLoader/Universa
 use Symfony\Component\ClassLoader\UniversalClassLoader;
  
 $loader = new UniversalClassLoader();
-$loader->register();
-
-$loader->registerNamespace('Symfony\\Component\\HttpFoundation', __DIR__.'/vendor/symfony/src/Symfony/Component/HttpFoundation'); 
+$loader->registerNamespaces(array(
+    'Symfony'          => __DIR__.'/vendor/symfony/src',
+    'Doctrine\\Common' => __DIR__.'/vendor/doctrine-common/lib',
+    'Doctrine\\DBAL'   => __DIR__.'/vendor/doctrine-dbal/lib',
+    'Doctrine'         => __DIR__.'/vendor/doctrine/lib',
+    'Monolog'          => __DIR__.'/vendor/monolog/src',
+    'Metadata'         => __DIR__.'/vendor/metadata/src',
+));
