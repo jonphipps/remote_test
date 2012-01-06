@@ -1,0 +1,1 @@
+This is a separate repository from which to run tests on the remote resolvers.
