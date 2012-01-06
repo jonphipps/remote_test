@@ -4,3 +4,15 @@
 [submodule "vendor/monolog"]
 	path = vendor/monolog
 	url = https://github.com/Seldaek/monolog.git
+[submodule "vendor/doctrine"]
+	path = vendor/doctrine
+	url = https://github.com/doctrine/doctrine2.git
+[submodule "vendor/doctrine-copmmon"]
+	path = vendor/doctrine-copmmon
+	url = https://github.com/doctrine/common.git
+[submodule "vendor/doctrine-dbal"]
+	path = vendor/doctrine-dbal
+	url = http://github.com/doctrine/dbal.git
+[submodule "vendor/metadata"]
+	path = vendor/metadata
+	url = https://github.com/schmittjoh/metadata.git
