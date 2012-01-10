@@ -16,3 +16,9 @@
 [submodule "vendor/metadata"]
 	path = vendor/metadata
 	url = https://github.com/schmittjoh/metadata.git
+[submodule "vendor/guzzle"]
+	path = vendor/guzzle
+	url = git://github.com/guzzle/guzzle.git
+[submodule "vendor/bundles/Ddeboer/GuzzleBundle"]
+	path = vendor/bundles/Ddeboer/GuzzleBundle
+	url = git://github.com/ddeboer/GuzzleBundle
