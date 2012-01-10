@@ -1,1 +1,1 @@
-{"hash":"0e50d02708991928992a71259875ca20","packages":[{"package":"symfony\/http-foundation","version":"2.1.0-dev"},{"package":"symfony\/class-loader","version":"2.1.0-dev"}]}
+{"hash":"23bc41b52db550c03cd040299788e23c","packages":[{"package":"symfony\/http-foundation","version":"2.1.0-dev"},{"package":"symfony\/class-loader","version":"2.1.0-dev"},{"package":"guzzle\/guzzle","version":"master-dev"}]}
