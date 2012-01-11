@@ -11,11 +11,12 @@
     processIsolation            = "false"
     stopOnFailure               = "false"
     syntaxCheck                 = "false"
-    bootstrap                   = "tests/bootstrap.php" >
+    bootstrap                   = "./tests/bootstrap.php"
+    testSuiteLoaderClass        = "PHPUnit_Runner_StandardTestSuiteLoader">
 
 	    <testsuites>
-	        <testsuite name="Silex Test Suite">
-	            <directory>./tests/remote/</directory>
+	        <testsuite name="Remote">
+	            <directory>./tests/remote/Tests</directory>
 	        </testsuite>
 	    </testsuites>
 	</phpunit>

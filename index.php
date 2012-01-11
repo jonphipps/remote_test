@@ -4,8 +4,14 @@
 
   use Symfony\Component\HttpFoundation\Request;
   use Symfony\Component\HttpFoundation\Response;
+  use Guzzle\Service\Client;
+
+  $client = new Client('http://rdvocab', array(
+    'key' => '***'
+  ));
 
   $request = Request::create('http://rdvocab');
+  $response = $client->head()->send();
 
   // the URI being requested (e.g. /about) minus any query parameters
   $request->getPathInfo();
